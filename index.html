@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>图片更改</title>
+		<style>
+				
+			#myImg{
+				width: 500px;
+				height: 500px;
+			}
+		</style>
+	</head>
+	<body>
+		<img id="myImg" src="地图2.PNG" alt="" />
+		<br />
+		<button onclick="change()">更换</button>
+	</body>
+	<script type="text/javascript">
+		function change(){
+			var img=document.getElementById("myImg")
+			img.src="地图3.png"
+		}
+	</script>
+</html>
